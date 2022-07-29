@@ -1,0 +1,398 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: 4500px;
+  font-family: Roboto, sans-serif;
+}
+/* start YOUR FAVORITE FOOD */
+.favorite {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  background: url("../img/pexelsphoto3326103.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* start header */
+.header {
+  height: 13%;
+  padding: 2% 13%;
+}
+.header input {
+  padding: 1%;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(238, 238, 238);
+  outline: none;
+}
+.header i {
+  color: grey;
+  margin-left: -3%;
+}
+.favorite hr {
+  margin-top: -1px;
+  border: 1px solid #ffffff8a;
+}
+/* end header */
+/* start text */
+.text {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  transform: translateY(70%);
+}
+.text .text1 h1 {
+  background: white;
+  height: 50px;
+  width: 95%;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 2.25rem;
+  font-family: Roboto, sans-serif;
+}
+.text .text2 h1 {
+  background: #f1c50e;
+  height: 50px;
+  width: 70%;
+  margin-top: -9px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 2.25rem;
+  font-family: Roboto, sans-serif;
+}
+/* end text */
+/* end YOUR FAVORITE FOOD */
+/* start Cafe Food */
+.Cafe {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  top: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 60%;
+  height: 99%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.content .color {
+  position: absolute;
+  background-color: #f1c50e;
+  width: 50%;
+  height: 90%;
+}
+.content .image {
+  position: absolute;
+  width: 46%;
+  height: 80%;
+  right: 2%;
+}
+.content .image img {
+  height: 100%;
+  width: 100%;
+}
+.content .menu {
+  position: absolute;
+  background-color: #ffffff;
+  width: 46%;
+  height: 40%;
+  left: 2%;
+  z-index: 2;
+  border: 5px solid black;
+}
+.content .menu {
+  padding: 3%;
+}
+.content .menu h2 {
+  font-size: 35px;
+}
+.content .menu p {
+  line-height: 1.5;
+}
+/* end Cafe Food */
+/* start snack */
+.snack {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 190%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.snack .all {
+  width: 75%;
+  height: 80%;
+  position: absolute;
+  display: flex;
+}
+.all .snake1,
+.all .snake2 {
+  width: 24%;
+  height: 100%;
+  margin-left: 1%;
+}
+.all .snake1 img,
+.all .snake2 img {
+  width: 100%;
+  height: 100%;
+}
+.all .box1,
+.all .box2 {
+  background: white;
+  width: 24%;
+  height: 100%;
+  margin-left: 1%;
+  border: 5px solid black;
+  padding: 5% 3%;
+}
+.all .box1 p:first-child,
+.all .box2 p:first-child {
+  font-size: 25px;
+}
+.all .box1 p:last-child,
+.all .box2 p:last-child {
+  line-height: 1.7;
+}
+/* end snack */
+/* start Difference */
+.difference {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.difference1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.difference1 img {
+  width: 100%;
+  height: 100%;
+}
+.time {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  left: 9%;
+  top: 60%;
+  padding: 2% 3%;
+}
+.time h5 {
+  font-size: 30px;
+  word-spacing: 2px;
+}
+.time p {
+  margin-top: -5%;
+  line-height: 1.8;
+}
+/* end Difference */
+/* start tastiest */
+.tastiest {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 350%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tastiest .food {
+  width: 75%;
+  height: 100%;
+  position: absolute;
+}
+.tastiest .food .color {
+  width: 100%;
+  height: 30%;
+  background: #f1c50e;
+  position: absolute;
+  top: 25%;
+}
+.tastiest .food .photos {
+  width: 90%;
+  height: 60%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.tastiest .food .photos img {
+  width: 45%;
+  height: 100%;
+}
+.food .photos img:first-child {
+  margin-right: 4%;
+}
+.tastiest .food .text {
+  width: 90%;
+  height: 30%;
+  position: absolute;
+  top: 49%;
+  left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.food .text h5 {
+  font-size: 30px;
+}
+.food .text p {
+  padding: 0 15%;
+  margin-top: -1%;
+  line-height: 1.7;
+  font-size: 17px;
+}
+/* end tastiest */
+/* start Restaurant */
+.restaurant {
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  top: 450%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant .content {
+  width: 80%;
+  height: 93%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.restaurant .content div {
+  width: 32%;
+  height: 100%;
+  margin: auto;
+}
+.restaurant .content .img1 img {
+  width: 100%;
+  height: 100%;
+}
+.restaurant .content .img2 img {
+  width: 100%;
+  height: 100%;
+}
+.restaurant .content .center {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.restaurant .content .center h2 {
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.restaurant .content .center h3 {
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-top: -7%;
+}
+.restaurant .content .center i {
+  font-size: 35px;
+}
+.restaurant .content .center p {
+  text-align: center;
+  padding: 2% 8%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+.restaurant .content .center h4 {
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+/* end Restaurant */
+/* start Enjoy */
+.enjoy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 530%;
+  background-image: url("../img/pexelsphoto3831823.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.enjoy .icons {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+.enjoy .icons a {
+  color: black;
+  padding: 0 1%;
+}
+.enjoy .icons a:hover {
+  color: #f1c50e;
+}
+.enjoy .icons i {
+  font-size: 35px;
+}
+/* end Enjoy */
+
+/* start media */
+@media screen and (max-width: 767px) {
+  body {
+    min-height: 4000px;
+  }
+  .favorite hr {
+    margin-top: -63px;
+  }
+  .header input {
+    padding: 3%;
+  }
+  .header i {
+    margin-left: -7%;
+    font-size: 22px;
+  }
+  .text {
+    width: 58%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content .menu {
+    height: 30%;
+    padding: 4%;
+  }
+  .content .menu h2 {
+    font-size: 37px;
+  }
+  .content .menu p {
+    font-size: 20px;
+  }
+  .time {
+    width: 45%;
+    height: 29%;
+    top: 65%;
+  }
+  .text p {
+    font-size: 18px;
+  }
+}
+/* end media */
